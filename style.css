@@ -1,0 +1,63 @@
+header {
+    background-color: #CE527C;
+    height: 300px;
+}
+
+header img {
+    height: 100px;
+    display: inline-block;
+}
+
+header h1 {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+
+header ul {
+    list-style: none;
+}
+
+header p {
+    margin: 0px;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.titulo-curso {
+    display: inline-block;
+}
+
+.detalhes-curso {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+
+    border-radius: 5px;
+    color: #525c65;
+}
+
+.alinhamento-vertical{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.detalhes-curso ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.icone-detalhes {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.descricao-detalhes {
+    display: inline-block;
+
+}
+

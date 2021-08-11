@@ -1,6 +1,9 @@
 header {
     background-color: #CE527C;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header img {
@@ -12,7 +15,9 @@ header h1 {
     color: white;
     display: inline-block;
     vertical-align: top;
+    font-size: 42px;
 }
+
 
 header ul {
     list-style: none;
@@ -30,25 +35,41 @@ header p {
     display: inline-block;
 }
 
+.logo {
+    display: inline-block;
+}
+
+.titulo {
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+    vertical-align: top;
+}
+
 .detalhes-curso {
     background-color: white;
-    width: 200px;
+    width: 300px;
     height: 200px;
-    display: inline-block;
+    display: flex;
 
     border-radius: 5px;
     color: #525c65;
 }
 
-.alinhamento-vertical{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .detalhes-curso ul{
     padding: 0px;
-    margin: 0px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detalhes-curso li {
+    width: 150px;
+}
+
+.itens-detalhes {
+    display: flex;
+    justify-content: space-around;
 }
 
 .icone-detalhes {
